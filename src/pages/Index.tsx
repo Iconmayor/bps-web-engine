@@ -69,7 +69,7 @@ const Index = () => {
             <Button asChild size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold text-base">
               <a href="tel:+447827329601"><Phone className="h-5 w-5 mr-2" /> Call Now +44 7827 329601</a>
             </Button>
-            <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-semibold text-base" onClick={() => setQuoteOpen(true)}>
+            <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground bg-primary-foreground/10 hover:bg-primary-foreground/20 font-semibold text-base" onClick={() => setQuoteOpen(true)}>
               <FileText className="h-5 w-5 mr-2" /> Request a Free Quote
             </Button>
           </div>
